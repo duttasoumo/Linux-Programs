@@ -1,0 +1,127 @@
+	#ex_15 : Write a program to implement linear search algorithm
+	clear
+	echo
+	echo -n "Enter size of your list(1-20)="
+	read n
+	echo "Enter $n elements one by one--->"
+	i=1
+		while [ $i -le $n ]
+		do
+		echo -n "a[$i]="
+		eval read a$i
+		echo -n "Enter index of your number="
+		eval read id$i
+		i=`expr $i + 1`
+		done
+	clear
+	echo "Elements in your list"
+	echo "Number  Index"
+	i=1
+		while [ $i -le $n ]
+		do
+		eval echo -n "\$a$i"
+		echo -n "      "
+		eval echo "\$id$i"
+	i=`expr $i + 1`
+	done
+
+	#Linear search routine starts
+	ch="y"
+		while [ $ch = "Y" -o $ch = "y" ]
+		do
+		echo -n "Enter number to be searched="
+		read num
+		count=0
+		i=1
+			while [ $i -le $n ]
+			do
+			eval ai=\$a$i
+				if [ $num -eq $ai ]
+				then
+				eval echo "$num	found at position=\$id$i"
+				count=`expr $count + 1`
+				fi
+			i=`expr $i + 1`
+			done
+			if [ $count -ne 0 ]
+			then
+			echo "Number of times $num found=$count"
+			else
+			echo "$num not found. Try a different number."
+			fi
+		echo -n "Do you want to search any more number y or n :"
+		read ch
+		done
+	#end of linear search program
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

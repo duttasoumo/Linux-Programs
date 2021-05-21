@@ -1,0 +1,25 @@
+	#ex_6 : Write a program to input two integers a,b.
+	#Calculate and print (i)hcf  and (ii) lcm of 2 numbers
+	clear
+	echo
+	echo -n "Enter your first number="	
+	read a
+	echo -n "Enter your 2nd number="
+	read b
+	x=$a
+	y=$b
+	# To calculate hcf of two numbers
+	r=`expr $x % $y`
+		while [ $r -ne 0 ]
+		do
+		x=$y
+		y=$r
+		r=`expr $x % $y`
+		done
+	# To calculate lcm of 2 numbers
+	p=`expr $a \* $b`
+	lc=`expr $p / $y`
+	echo "HCF of $a, $b=$y"
+	echo "LCM of $a, $b=$lc"
+	#End of program
+	

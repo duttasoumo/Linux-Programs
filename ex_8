@@ -1,0 +1,22 @@
+	#ex_8: Write a program to input 'n' where n>=2. Display all
+	# Fibonacci numbers <=n
+	clear
+	echo
+	echo -n "Enter any +ve integer>=2 :"
+	read n
+	n1=1
+	n2=1
+	echo "Fibonacci numbers<=$n--->"
+	echo $n1
+	echo $n2
+	n3=`expr $n1 + $n2`
+		while [ $n3 -le $n ]
+		do
+		echo $n3
+		n1=$n2
+		n2=$n3
+		n3=`expr $n1 + $n2`
+		done
+	#end of program
+
+

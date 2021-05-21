@@ -1,0 +1,13 @@
+	#test1
+	clear
+	echo -n "Enter Y/N"
+	read ch
+		if [ $ch = "Y" ]
+		then
+		echo "YES"
+		else
+		echo "NO"
+		fi
+	#end of program
+
+

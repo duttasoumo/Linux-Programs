@@ -1,0 +1,15 @@
+	#calculator : Write a program to calculate
+	#(i)sum, (ii) difference, (iii) product and (iv) division of two numbers
+	clear
+	echo
+	echo -n "Enter 1st number="
+	read a
+	echo -n "Enter 2nd number="
+	read b
+	s=`expr $a + $b`
+	d=`expr $a - $b`
+	p=`expr $a \* $b`
+	di=`expr $a / $b`
+	echo "Sum=$s Diference=$d Product=$p Division=$di"
+	#end of program
+

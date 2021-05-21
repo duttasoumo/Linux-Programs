@@ -1,0 +1,72 @@
+	#ex_13 : Write a program to input size of 1-dimensional array say 'n'.
+	#input 'n' elements and store in 1-dim array say 'a'.
+	# calculate sum of all elements, average of all elements and the largest value.
+	#Print all input data and output data.
+	clear
+	echo
+	echo -n "Enter Size of 1-dim array (1-20)="
+	read n
+	echo "Enter $n elements one by one"
+	i=1
+	# To input 'n' elements	
+		while [ $i -le $n ]
+		do
+		echo -n "a[$i]="
+		eval read a$i
+		i=`expr $i + 1`
+		done
+	#To calculate sum,average
+	sum=0
+	i=1
+		while [ $i -le $n ]
+		do
+		eval ai=\$a$i
+		sum=`expr $sum + $ai`
+		i=`expr $i + 1`
+		done
+	avg=`expr $sum / $n`
+	# To find largest value
+	i=1
+	eval big=\$a$i
+	i=2
+		while [ $i -le $n ]
+		do
+		eval ai=\$a$i
+			if [ $ai -gt $big ]
+			then
+			big=$ai
+			fi
+		i=`expr $i + 1`
+		done
+	# To print input and output data
+	echo "Sum=$sum Average=$avg Largest value=$big"
+	#End of program
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

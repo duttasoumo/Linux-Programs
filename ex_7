@@ -1,0 +1,17 @@
+	#ex_7: Write a program to calculate sum of digits in any
+	# positive integer say 'n'
+	clear
+	echo
+	echo -n "Enter any positive integer="
+	read n
+	m=$n
+	s=0
+		while [ $m -ne 0 ]
+		do
+		d=`expr $m % 10`
+		s=`expr $s + $d`
+		m=`expr $m / 10`
+		done
+	echo "Sum of digits in $n=$s"
+	#End of program
+	

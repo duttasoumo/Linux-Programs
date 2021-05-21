@@ -1,0 +1,19 @@
+	#ex_2 : Write a program to calculate s=n+(n-2)+(n-4)+....2 or 1.
+	# Print s
+	clear
+	tput cup 13 10 # To move cursor to 13 -th row and 10-th column
+	echo -n "Enter value of n(1-20)="
+	read n
+	s=0
+	c=$n
+		while [ $c -ge 1 ]
+		do
+		s=`expr $s + $c`
+		c=`expr $c - 2`
+		done
+	tput cup 14 10
+	echo "Sum of $n numbers=$s"
+	#end of program
+
+	
+

@@ -1,0 +1,185 @@
+	IGNOU MCA Semester-2
+	Date: 03/10/2015
+
+	Introduction to Shell Script 
+
+	1. In shell scripts we write linux commands. A series 
+	of commands may be saved in any file say "shell_1". To 
+	execute "shell_1" we do the following:
+        $ sh shell_1 <enter>  --> The file sh can execute any 
+	shell script.
+	2. To display any data on screen we use a command 
+	echo "message".
+	3. To perform any calculation we do the following:
+	a=5
+	b=6
+	c=`expr $a + $b`  --> To perform any arithmetic 
+	operation we have to use expr.
+	4. To read data from key board we use a statement called read.
+	Example: read a
+ 	5. Any comment line will begin with a # sign.  
+	Example : # shell_1 : Write a program to calculate sum of 2 numbers
+	6. We can use use control statements such as 
+	(i) 
+	if [  condition  ]
+	then
+	---
+	---
+	fi
+	(ii) if [ condition ]
+	     then
+	     ----
+             ----
+             else
+             ----
+             ----
+             fi
+	(iii) if [ condition_1 ]
+	      then
+              -----
+              -----
+              elif [ condition_2 ]
+              then
+              ----
+              ----
+              elif [ condition_3 ]
+	      then              
+	      ----
+              ----     
+              else
+              ----
+              ----
+              fi
+	(iv) break statement  : It is used to break a loop
+        Loop statement:
+	   (i) while  [ condition ]
+               do
+               -----
+               -----
+               done
+
+           (ii) for var in [ v1,v2,v3....]
+                do
+                ----
+                ----
+                done
+
+        To use subscripted variable in shell script:
+        
+        Subscripted variables are nothing array type variable. We define 
+	subscripted variable as follows:
+	i=2
+	eval a$i=5   # a[i]=5
+	s=0
+	eval s=`expr $s + \$a$i`
+        In linux we can 1-dimensional array or 2-dimensional array.
+
+	problem-1: shell_1 : Write a program to input roll(1-100), 
+	total(0-100). Calculate grade as follows:
+        (i) if total>=70 then grade="A"
+        (ii)if total>=60 then grade="B"
+	(iii) if total>=50 then grade="C"
+	(iv) if total>=40 then grade="D"
+	(v) if total<40 then grade="F"
+	Print roll,total,grade.
+	Do it 'n' number of students where n>=1 and n<=20.
+
+	relational operators in Linux :
+	==  : -eq
+	>   : -gt
+	<   : -lt
+	>=  : -ge
+	<=  : -le
+	!=  : -ne
+	
+	problem-3: shell_3 : Write a program to input 'n' where n>=1
+	and n<=10.  Calculate s=1-2+3-4 ....n. print s.
+	
+	problem-4: shell_4: Write a program to input 'n' where n>=1 and
+	n<=20. Input 'n' arbirary numbers in 1 -dimensional array say 'a'.
+	Calculate and print (i) sum of all elements, (ii) average of all
+	elements, (iii) largest value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+  
+
+
+
+		
+     
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

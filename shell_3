@@ -1,0 +1,22 @@
+	#shell_3 : Write a program to input 'n' where
+	#n>=1 and n<=10. calculate s=1-2+3-4...n. Print s
+	clear
+	echo
+	echo -n "Enter n(1-10)="
+	read n
+	s=0
+	sf=1 # value sf=1 or -1
+	c=1
+		while [ $c -le $n ]
+		do
+		c1=`expr $c \* $sf`
+		s=`expr $s + $c1`
+		sf=`expr $sf \* -1`
+		c=`expr $c + 1`
+		done
+	echo "Sum of $n numbers=$s"
+	#end of program
+
+
+
+	

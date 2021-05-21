@@ -1,0 +1,52 @@
+	Implementation of Numerical Methods using C++ Programming
+	Language.
+	
+	Reference Book : Programming in C++ by E. Balagurusamy
+
+	Some Important Features of C++ programming language:
+	---------------------------------------------------
+	1. C++ is Object Oriented programming language.
+	2. In Object oriented language we first define something called
+	   class. In a class one can define data and member functions.
+	   So a class is a combination of data and member functions.
+	3. In a class we have mainly two sections one is called private 
+	   and the other is called public. 
+        4. All member functions in class can envoke any other member functions
+	   of the same class. To access the member functions of class one
+	   can define an object which is also called the instance of a class.
+           Using object one can access all public member functions from
+	   outside that class.
+        5. A Class can pass the property to another class using a method
+           called inheritance. In C++ we have single level inheritance, multi
+	   level inheritance, Multiple inheritance.
+	6. All statements used in "C" language can be used as it is in C++.
+	7. main() function should not be part of a class unlike C# or Java.
+	8. The header file to be used in C++ is iostream.h
+	9. To input data from keyboard we a object cin. To display some output
+	   on screen we use object cout.
+           Example:   cout<<"Enter any number=";
+		      cin>>a;
+	10. In Linux to clear screen we use system("clear"); 
+	
+
+	
+	Problem-1: prob_1.cpp : Write a program in C++ to input two integers
+	say a,b. Calculate sum, average of 2 integers.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	
+
+

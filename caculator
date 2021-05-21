@@ -1,0 +1,16 @@
+
+
+	#calculator : Write a program to implement simple addition, subtraction, product
+	# and division
+	clear
+	echo -n "Enter 1st number="
+	read a
+	echo -n "Enter 2nd number="
+	read b
+	s=`expr $a + $b`
+	d=`expr $a - $b`
+	p=`expr $a \* $b`
+	di=`expr $a / $b`
+	echo "Sum=$s Difference=$d  Product=$p Division=$di"
+	#end of program
+

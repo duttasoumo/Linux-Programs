@@ -1,0 +1,42 @@
+	#ex_11: Write a program to input roll(1-100), total(0-100)
+	#calculate grade. Print roll,total, grade
+	clear
+	choice="y"
+		while [ $choice = "y" -o $choice = "Y" ]
+		do
+		echo -n "Enter Roll(1-100)="
+		read r
+		echo -n "Enter Total(0-100)="
+		read t
+		# To calculate Grade
+			if [ $t -ge 70 ]
+			then
+			g="A"
+				elif [ $t -ge 60 ]
+				then
+				g="B"
+					elif [ $t -ge 50 ]
+					then
+					g="C"
+						elif [ $t -ge 40 ]
+						then
+						g="D"
+			else
+			g="F"
+			fi
+		echo "Roll=$r Total=$t Grade=$g"
+		echo -n "Do you want to continue(Y/N?) :"
+		read choice
+		done
+	#End of program
+
+
+
+
+
+
+
+
+
+
+

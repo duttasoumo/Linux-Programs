@@ -1,0 +1,22 @@
+total 164
+drwxr-xr-x 2 cmsa_3 cmsa_3 4096 Jul  6 09:28 Desktop
+-rwxrwxrwx 1 cmsa_3 cmsa_3   70 Jul 20 09:42 myfile1
+-rwxrwxr-x 1 cmsa_3 cmsa_3   51 Jul 13 12:04 myfile11
+-rwxrwxr-x 1 cmsa_3 cmsa_3   51 Jul 13 12:04 myfile111
+-rwxrwxrwx 1 cmsa_3 cmsa_3   85 Jul 20 09:40 myfile2
+-rw-rw-r-- 1 cmsa_3 cmsa_3  156 Jul  6 11:59 myfile3
+-rw-rw-r-- 1 cmsa_3 cmsa_3  269 Jul  6 12:21 myfile4
+-rw-rw-r-- 1 cmsa_3 cmsa_3  105 Jul  6 12:32 myfile5
+-rw-rw-r-- 1 cmsa_3 cmsa_3    4 Jul 20 10:24 myfile6
+-rw-rw-r-- 1 cmsa_3 cmsa_3    0 Jul 20 10:50 myfile7
+-rw-rw-r-- 1 cmsa_3 cmsa_3  193 Jul 13 12:27 output
+-rw-rw-r-- 1 cmsa_3 cmsa_3   24 Jul 20 10:38 output1
+-rw-rw-r-- 1 cmsa_3 cmsa_3   33 Jul 20 10:38 output2
+-rw-rw-r-- 1 cmsa_3 cmsa_3   57 Jul 20 10:42 output3
+-rw-rw-r-- 1 cmsa_3 cmsa_3   70 Jul 20 09:44 sortfile1
+-rw-rw-r-- 1 cmsa_3 cmsa_3   85 Jul 20 09:44 sortfile2
+drwxrwxr-x 2 cmsa_3 cmsa_3 4096 Jul 13 12:34 sub1
+drwxrwxr-x 4 cmsa_3 cmsa_3 4096 Jul 13 12:39 sub2
+-rw-rw-r-- 1 cmsa_3 cmsa_3  145 Jul 13 12:22 xxcdoc
+-rw-rw-r-- 1 cmsa_3 cmsa_3   86 Jul 13 12:19 xxdoc1
+-rw-rw-r-- 1 cmsa_3 cmsa_3   59 Jul 13 12:21 xxdoc2

@@ -1,0 +1,63 @@
+	#shell_2 : Write a program to input number of students
+	# say 'n'. Input roll, p1,p2,p3, calculate total=
+	#sum of best two papers, average=total/2 and division
+	#=1st,2nd,3rd or Fail. Print the result.
+	clear
+	echo
+	echo -n "Enter number of students(1-10)="
+	read n
+	c=1
+		while [ $c -le $n ]
+		do
+		echo -n "Enter Roll="
+		read roll
+		echo -n "Enter p1(0-100)="
+		read p1
+		echo -n "Enter p2(0-100)="
+		read p2
+		echo -n "Enter p3(0-100)="
+		read p3
+		# To find smallest value
+		small=$p1
+			if [ $p2 -lt $small ]
+			then
+			small=$p2
+			fi
+			if [ $p3 -lt $small ]
+			then
+			small=$p3
+			fi
+		total=`expr $p1 + $p2 + $p3 - $small`
+		# To calculate division
+		average=`expr $total / 2`
+			if [ $average -ge 60 ]
+			then
+			division="1st"
+			elif [ $average -ge 50 ]
+			then
+			division="2nd"
+			elif [ $average -ge 40 ]
+			then
+			division="3rd"
+			else
+			division="Fail"
+			fi
+echo "R=$roll p1=$p1 p2=$p2 p3=$p3 t=$total avg=$average Div=$division"
+		c=`expr $c + 1`
+		done
+	#end of program		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

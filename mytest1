@@ -1,0 +1,12 @@
+	# Write shell script to run awk program and perl program
+	clear
+	echo -n "Press enter key to run merge sort program in awk"
+	read ch
+	awk -f mergesort_awk.awk
+	echo -n "Press enter key to run perl program to calculate hcf.lcm"
+	read ch
+	perl xxperl1.pl
+	echo -n "Thank you ! Press enter key to exit--->"
+	read ch
+	#End of shell script
+

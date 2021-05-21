@@ -1,0 +1,67 @@
+
+	Introduction to awk programming language
+
+	1. awk is very similar to C-language. The statements line if, for, while statements are there.
+	2. The statements in awk program should not be terminated by semicolon(;).
+	3. To display any output we can use print or printf. In printf we can use 
+	format like c-language and in print we can not format.
+	4. The statements like if(), while(), for  must contain { and }
+	5. To read data from keyboard we a statement called getline.
+           example getline n < "\dev\tty"  --> It will allow to enter data in 'n'.
+	6. We don't have to declare any varibale unlike c-language.
+	7. In awk we can perform floating point operation.
+           example :  y=5/2=2.5
+	8. In awk program there are 3 sections :
+           BEGIN{
+
+           ----
+           ----
+           }
+           
+	   Mid_section
+	   {
+           ---
+           }
+           END{
+           ----
+           }
+
+         Normally we use BEGIN section in any awk program.
+	9. To execute any shell script/command we have to call a function system().
+	   Example:
+	   system("clear")
+	   system("tput cup 10 20")
+	   system("a.out")
+	   system("awk -f myfile.awk")
+
+problem-1: awk_1.awk : Write a program in awk to input 2 numbers. calulate sum and average
+                       of 2 numbwers.
+
+         Some important points:
+	Point-1: The file should be save as file_name.awk
+        Point-2: To execute any awk program we do the following:
+                $ awk -f filename.awk <enter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   
+
+
+
+
+
+
+
+

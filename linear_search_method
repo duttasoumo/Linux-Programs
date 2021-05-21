@@ -1,0 +1,45 @@
+	#linear_search_method: Write a program to implement linear search
+	#method
+	clear
+	echo
+	echo -n "Enter size of your array(1-20)="
+	read n
+	echo "Enter $n elements one by one --->"
+	i=1
+		while [ $i -le $n ]
+		do
+		echo -n "a[$i]="
+		eval read a$i
+		eval id$i=$i
+		i=`expr $i + 1`
+		done
+	ch="Y"
+		while [ $ch = "Y" -o $ch = "y" ]
+		do
+		echo -n "Enter number to be searched="
+		read num
+		count=0
+		i=1
+			while [ $i -le $n ]
+			do
+			eval ai=\$a$i
+				if [ $num -eq $ai ]
+				then
+				count=`expr $count + 1`
+				eval echo "$num found at position=\$id$i"
+				fi
+			i=`expr $i + 1`
+			done
+			if [ $count -ne 0 ]
+			then
+			echo "Number of times $num found=$count"
+			else
+			echo "$num not found in the list"
+			fi
+		echo -n "Do you want to continue(Y/N?) :"
+		read ch
+		done
+	#end of program
+ 
+
+

@@ -1,0 +1,68 @@
+	IGNOU MCA 2nd semester
+	Practical Class	
+	Date: 19/03/2016
+	----------------------
+	
+	Introduction to Linux Operating System
+	--------------------------------------
+
+	Some Important Features of Linux Operating System:
+
+	1. Linux is a Multi user and Multi Programming Operating 	System.
+	2. Initially the name of the operating system was UNIX. 
+	3. LINUX free software. We can download it from internet.
+	4. The main advantage of Linux is that it is completely v	virus free OS unlike Windows.
+	5. Internet Backbone essentially Linux OS.
+	6. It is highly secured operating system. An user can 
+	tamper/modify only his/her file. A normal user can not 
+	tamper the file of another user until and unless the
+	the permission is given to the user.
+	7. In Linux Operating one user is called super user who
+	can create new user or can edit/modify/remove any other
+	file. The super user must know the password of Root. 
+	Normally the password of Root file system is kept secret.	 8. The command prompt of normal user is shown as $ and
+	the command prompt of super user is shown # sign.
+	
+	How to Load Linux Operating System in your machine:
+	
+	Step-1: Restart your machine and go on pressing Down 
+	Arrow key for some time. It will show a menu and select 
+	CENTOS from there. Press Enter Key.
+	Step-2: It will load Linux OS and will show UserID=
+	Step-3: Type user-ID = cmsa_3
+	Step-4: Type Password = cmsa_3
+	It will load Linux and will display the file system of 
+	Desktop.
+	9. In Linux all commands are essentially files. If a file 	is missing then that command will not work.
+	10. The main Linux OS is called Kernel. Without this we
+	can not boot a machine. Outside Kernel we have many 
+	more more files which we can use to operate in various 
+	files.
+
+	Reference Book on UNIX:
+	1. UNIX   : Mr. Sumitabha Das : Publ : Tata McGraw Hill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+

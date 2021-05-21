@@ -1,0 +1,48 @@
+	#shell_4 : Write a program to input any +ve integer 'n'
+	#Print all prime numbers <=n
+	clear
+	echo
+	echo -n "Enter any positive integer(2-1000)="
+	read n
+	count=0 # count=counter
+	i=2
+		while [ $i -le $n ]
+		do
+		m=$i
+		n1=`expr $m / 2`
+		flag=1
+		j=2
+			while [ $j -le $n1 ]
+			do
+			r=`expr $i % $j`
+				if [ $r -eq 0 ]
+				then
+				flag=0
+				break
+				fi
+			j=`expr $j + 1`
+			done
+			if [ $flag -eq 1 ]
+			then
+			count=`expr $count + 1`
+			echo -n $i
+			echo -n "  "
+			fi
+		i=`expr $i + 1`
+		done
+		echo
+		echo "Total prime numbers<=$n =$count"
+	#end of program
+
+	
+
+
+			
+
+
+
+
+
+
+
+

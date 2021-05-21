@@ -1,0 +1,6 @@
+clear
+echo "We are now running perl program from shell script"
+perl xxperl1.pl
+
+echo "Thank you!"
+
